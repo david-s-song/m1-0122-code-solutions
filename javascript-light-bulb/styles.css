@@ -1,0 +1,32 @@
+body {
+  background-color: blanchedalmond;
+}
+
+.body-black {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+.button {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: none;
+  background-color: yellow;
+  box-shadow: 0 0 30px yellow;
+}
+
+.button-gray {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(59 59 59);
+  box-shadow: none;
+}
