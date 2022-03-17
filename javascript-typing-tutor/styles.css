@@ -1,0 +1,48 @@
+* {
+  font-family: monospace, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+.letters-wrapper {
+  display: flex;
+}
+
+h1 {
+  letter-spacing: -10px;
+}
+
+span {
+  padding: 3px;
+  white-space: pre;
+}
+
+.current-letter {
+  font-size: 32px;
+  border-bottom: 4px solid;
+  color: black;
+}
+
+.black-letter {
+  font-size: 32px;
+  border-bottom: none;
+  color: black;
+}
+
+.correct-letter {
+  font-size: 32px;
+  border-bottom: none;
+  color: chartreuse;
+}
+
+.wrong-letter {
+  font-size: 32px;
+  border-bottom: 4px solid;
+  color: red;
+}
